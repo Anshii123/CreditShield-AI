@@ -1,0 +1,85 @@
+{
+    "status": "trained",
+    "selected_model": "Gradient Boosting",
+    "sample_count": 1000,
+    "train_size": 800,
+    "test_size": 200,
+    "accuracy": 0.845,
+    "precision": 0.2,
+    "recall": 0.03571428571428571,
+    "f1_score": 0.06060606060606061,
+    "roc_auc": 0.5296926910299004,
+    "feature_importances": [
+        {
+            "feature": "Credit_Score",
+            "importance": 0.24466855382271585
+        },
+        {
+            "feature": "Loan_Amount",
+            "importance": 0.24053285203134572
+        },
+        {
+            "feature": "Employment_Years",
+            "importance": 0.15270410694703468
+        },
+        {
+            "feature": "Age",
+            "importance": 0.13809861907864932
+        },
+        {
+            "feature": "Income",
+            "importance": 0.13591005635682563
+        },
+        {
+            "feature": "Education_Level_High School",
+            "importance": 0.022014884871008444
+        },
+        {
+            "feature": "Housing_Status_Mortgage",
+            "importance": 0.015822935548118058
+        },
+        {
+            "feature": "Education_Level_Masters",
+            "importance": 0.014959358873156936
+        },
+        {
+            "feature": "Housing_Status_Own",
+            "importance": 0.013678914701768019
+        },
+        {
+            "feature": "Education_Level_PhD",
+            "importance": 0.01254910547557346
+        },
+        {
+            "feature": "Housing_Status_Rent",
+            "importance": 0.00646174748278574
+        },
+        {
+            "feature": "Education_Level_Bachelors",
+            "importance": 0.0025988648110180004
+        }
+    ],
+    "model_comparison": {
+        "Logistic Regression": {
+            "accuracy": 0.86,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1_score": 0.0,
+            "roc_auc": 0.4904485049833887
+        },
+        "Random Forest": {
+            "accuracy": 0.86,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1_score": 0.0,
+            "roc_auc": 0.5
+        },
+        "Gradient Boosting": {
+            "accuracy": 0.845,
+            "precision": 0.2,
+            "recall": 0.03571428571428571,
+            "f1_score": 0.06060606060606061,
+            "roc_auc": 0.5296926910299004
+        }
+    }
+}
