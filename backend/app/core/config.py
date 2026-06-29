@@ -32,7 +32,7 @@ os.makedirs(MODEL_DIR, exist_ok=True)
 os.makedirs(DATASET_PATH.parent, exist_ok=True)
 
 # API Settings
-PROJECT_NAME = os.getenv("PROJECT_NAME", "CreditShield AI API")
+PROJECT_NAME = os.getenv("PROJECT_NAME", "CreditShield AI")
 VERSION = os.getenv("VERSION", "1.2.0")
 API_PREFIX = "/api"
 
