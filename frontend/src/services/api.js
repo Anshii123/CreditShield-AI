@@ -1,8 +1,8 @@
 import axios from 'axios';
 
-// Configure Axios with base URL matching the Vite dev proxy prefix
+// Configure Axios with base URL matching the Vite dev proxy prefix, supporting environment override in production
 const client = axios.create({
-  baseURL: '/api',
+  baseURL: import.meta.env.VITE_API_URL || '/api',
   headers: {
     'Content-Type': 'application/json',
   },
